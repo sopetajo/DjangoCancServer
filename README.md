@@ -1,1 +1,1 @@
-# DjangoHomeServer
+# DjangoCancServer
