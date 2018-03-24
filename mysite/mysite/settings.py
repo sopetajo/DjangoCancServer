@@ -25,13 +25,14 @@ SECRET_KEY = '4r@&uk9aoml0w&8ysrws$uvc=ni!@m%!&b&7h-dk(yi!f82)_2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'dev',]
+ALLOWED_HOSTS = [u'dev', u'localhost', u'127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'request_logger.apps.RequestLoggerConfig',
+    'pycanc.apps.PycancConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
